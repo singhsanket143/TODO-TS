@@ -1,9 +1,9 @@
 import { createContext } from "react";
 import TodoContextType from "../Types/TodoContextType";
 
-const todoContext = createContext<TodoContextType | undefined>(undefined);
+const TodoContext = createContext<TodoContextType | undefined>(undefined);
 
-export default todoContext;
+export default TodoContext;
 
 /**
  * 
